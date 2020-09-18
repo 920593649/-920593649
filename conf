@@ -1,5 +1,9 @@
-hostname = qqpubilc.qlogo.cn,btrace.qq.com,btrace.qq.com,www.baidu.com,dlied1.qq.com,qqpublic.qpic.cn,alogs.umeng.com,thirdqq.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn
-#
+hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, qqpubilc.qlogo.cn,btrace.qq.com,btrace.qq.com,www.baidu.com,dlied1.qq.com,qqpublic.qpic.cn,alogs.umeng.com,thirdqq.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn
+
+# TikTok By wzw1997007 & Choler
+(?<=_region=)CN(?=&) url 307 JP
+(?<=&app_version=)1[6-9]..(?=.?.?&) url 307 1
+(?<=\?version_code=)1[6-9]..(?=.?.?&) url 307 1
 https://alogs.umeng.com/ - echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
 http://thirdqq.qlogo.cn/qqapp/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
 http://btrace.qq.com/kvcollect? url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
