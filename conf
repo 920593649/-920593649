@@ -1,7 +1,14 @@
-hostname = qqpubilc.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn,
-hostname = btrace.qq.com,alogs.umeng.com,thirdqq.qlogo.cn,
-hostname = btrace.qq.com,dlied1.qq.com,www.baidu.com,qqpublic.qpic.cn,thirdwx.qlogo.cn,
+hostname = qqpubilc.qlogo.cn
+hostname = btrace.qq.com
+hostname = btrace.qq.com
 hostname = www.baidu.com
+hostname = dlied1.qq.com
+hostname = qqpublic.qpic.cn
+hostname = thirdwx.qlogo.cn
+hostname = alogs.umeng.com
+hostname = thirdqq.qlogo.cn
+hostname = hirdqq.qpic.cn
+hostname = thirdwx.qpic.cn
 https://alogs.umeng.com/ - echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
 http://thirdqq.qlogo.cn/qqapp/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
 http://btrace.qq.com/kvcollect? url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
