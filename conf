@@ -1,5 +1,4 @@
-hostname = alogs.umeng.com,thirdqq.qlogo.cn,btrace.qq.com,dlied1.qq.com,www.baidu.com,qqpublic.qpic.cn,thirdwx.qlogo.cn,
-hostname = qqpubilc.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn,btrace.qq.com
+hostname = qqpubilc.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn,btrace.qq.com,alogs.umeng.com,thirdqq.qlogo.cn,btrace.qq.com,dlied1.qq.com,www.baidu.com,qqpublic.qpic.cn,thirdwx.qlogo.cn,
 https://alogs.umeng.com/ - echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
 http://thirdqq.qlogo.cn/qqapp/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
 http://btrace.qq.com/kvcollect? url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
