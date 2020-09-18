@@ -1,77 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<AutoResponder LastSave="2020-08-30T21:49:12.7981576+08:00" FiddlerVersion="5.0.20194.41348">
-  <State Enabled="true" Fallthrough="true" UseLatency="false">
-    <ResponseRule Match="https://dlied1.qq.com/iedsafe/Client/ios/2131/config3.xml" Action="*redir:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat" Enabled="true" />
-    <ResponseRule Match="https://dlied1.qq.com/iedsafe/Client/ios/8999/config3.xml" Action="*redir:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat" Enabled="true" />
-    <ResponseRule Match="https://dlied1.qq.com/iedsafe/Client/ios/2131/config2.xml" Action="*redir:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat" Enabled="true" />
-    <ResponseRule Match="http://static.handjoy.com/conf/ios-v1/otm_blue10.conf" Action="307_RedirectWithMethod.dat" Enabled="true" />
-    <ResponseRule Match="EXACT:https://cdn.wetest.qq.com/cube/com/apmcc/TAPM_IOS_APM_PUBGMMHD" Action="307_RedirectWithMethod.dat" Enabled="true" />
-    <ResponseRule Match="EXACT:https://ios.bugly.qq.com/rqd/sync" Action="307_RedirectWithMethod.dat" Enabled="true" />
-    <ResponseRule Match="EXACT:https://ulogs.umeng.com/unify_logs" Action="307_RedirectWithMethod.dat" Enabled="true" />
-    <ResponseRule Match="EXACT:https://api.unipay.qq.com/v1/r/1450014010/get_ip_list" Action="307_RedirectWithMethod.dat" Enabled="true" />
-    <ResponseRule Match="thirdqq.qlogo.cn" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="qlogo.cn" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="qpic.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="video.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://video.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://video.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://cloudctrl.gcloud.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://hpjy-op.tga.qq.com:443/app/hpjy/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://ios.bugly.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://api.unipay.qq.com/v1/r/1450014010/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://pingfore.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="myqcloud.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://livew.l.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://mazu.3g.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://cloudctrl.gcloud.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://priv.igame.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://idcconfig.gcloud.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://mtrace.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://www.ipip.net/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://qqpublic.qpic.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="EXACT:http://static.handjoy.com/conf/ios-v1/otm_blue10.conf" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://ulogs.umeng.com/unify_logs" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://api.unipay.qq.com/v1/r/1450014010/get_ip_list" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://ios.bugly.qq.com/rqd/sync" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://cdn.wetest.qq.com/cube/com/apmcc/TAPM_IOS_APM_PUBGMMHD" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://vmp.qq.com/turingshield" Action="http://vmp.qq.com/turingshield?type=iOS&amp;brand=iPhone&amp;package=com.tencent.tmgp.pubgmhd&amp;model=iPhone10,3&amp;gameversion=8351" Enabled="true" />
-    <ResponseRule Match="http://vmp.qq.com/cloudcontro" Action="http://vmp.qq.com/cloudcontrol?type=iOS&amp;brand=iPhone&amp;package=com.tencent.tmgp.pubgmhd&amp;model=iPhone10,3&amp;gameversion=8351" Enabled="true" />
-    <ResponseRule Match="https://www.baidu.com" Action="C:\Users\Administrator\Desktop\别烦.html" Enabled="true" />
-    <ResponseRule Match="https://m.baidu.com" Action="C:\Users\Administrator\Desktop\别烦.html" Enabled="true" />
-    <ResponseRule Match="q.qlogo.cn" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="thirdwx.qlogo.cn" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://img1.gtimg.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://q.qlogo.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://p.qlogo.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://q.qlogo.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://thirdwx.qlogo.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://qqadapt.qpic.cn/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/config2.xml" Action="NEW_RESPONSE_09_20_12" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvY29uZmlnMy54bWwNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/config3.xml" Action="NEW_RESPONSE_09_20_41" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvY29tbS5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/comm.dat" Action="NEW_RESPONSE_09_20_56" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzg5OTkvY29uZmlnMi54bWwNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/8999/config2.xml" Action="NEW_RESPONSE_09_21_41" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvQjU1ODlDNjAvbXJwY3MuZGF0YQ0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUNCg0K" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/B5589C60/mrpcs.data" Action="NEW_RESPONSE_09_22_02" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvNTEyNjRDRjIvdHNzbXVhLnppcA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUNCg0K" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/51264CF2/tssmua.zip" Action="NEW_RESPONSE_09_22_35" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvMjM5MUZENkEvdHNzX2NmZzIuZGF0DQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTAsIG11c3QtcmV2YWxpZGF0ZQ0KDQo=" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/2391FD6A/tss_cfg2.dat" Action="NEW_RESPONSE_09_22_58" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvMS5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/1.dat" Action="NEW_RESPONSE_09_23_47" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvMi5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/2.dat" Action="NEW_RESPONSE_09_24_10" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvMy5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/3.dat" Action="NEW_RESPONSE_09_24_34" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvNC5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/4.dat" Action="NEW_RESPONSE_09_24_53" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvNS5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/5.dat" Action="NEW_RESPONSE_09_25_11" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvRjE2RDMxRTAvNi5kYXQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2139/config2.xml" Action="NEW_RESPONSE_14_20_54" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzkvY29uZmlnMy54bWwNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/2139/config3.xml" Action="NEW_RESPONSE_14_21_14" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzg5OTkvY29uZmlnMi54bWwNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MCwgbXVzdC1yZXZhbGlkYXRlDQoNCg==" />
-    <ResponseRule Match="EXACT:https://dlied1.qq.com/iedsafe/Client/ios/8999/config2.xml" Action="NEW_RESPONSE_14_21_31" Enabled="true" Headers="SFRUUC8xLjEgMzA3IEF1dG9SZWRpcg0KQ29udGVudC1MZW5ndGg6IDANCkxvY2F0aW9uOiBodHRwczovL2RsaWVkMS5xcS5jb20vaWVkc2FmZS9DbGllbnQvaW9zLzIxMzEvQjU1ODlDNjAvbXJwY3MuZGF0YQ0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0wLCBtdXN0LXJldmFsaWRhdGUNCg0K" />
-    <ResponseRule Match="https://cs.mbgame.gamesafe.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://ipv6.mainconn.gamesafe.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://cs.mainconn.gamesafe.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://mtrace.qq.com" Action="http://mtrace.qq.com/mkvcollect?k=II322EQHBB77&amp;amp;a=1.6.8.8500.&amp;amp;s=5.0.1.002&amp;amp;n=1" Enabled="true" />
-    <ResponseRule Match="https://priv.igame.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="http://mazu.3g.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://cloudctrl.gcloud.qq.com/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://hpjy-op.tga.qq.com:443/app/hpjy/" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://ios.bugly.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://pingfore.qq.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="myqcloud.com" Action="*bpu" Enabled="true" />
-    <ResponseRule Match="https://livew.l.qq.com" Action="*bpu" Enabled="true" />
-  </State>
-</AutoResponder>
+https://alogs.umeng.com/ - echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+http://thirdqq.qlogo.cn/qqapp/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+http://btrace.qq.com/kvcollect? url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+http://btrace.qq.com/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+https://dlied1.qq.com/edsafe/Client/ios/2131/config2.xml url 302 https://dlied1.qq.com/edsafe/Client/ios/2131/config2.xml
+http://dlied6.qq.com/invc/xfspeed/qqpcmgr/module_update/ url 302 http://dlied6.qq.com/
+https://ios.bugly.qq.com/ url 302 https://ios.bugly.qq.com/
+https://dlied1.qq.com/edsafe/Client/ios/8999/config3.xml url 302 https://dlied1.qq.com/edsafe/Client/ios/8999/config3.xml
+https://dlied1.qq.com/ url 302 https://dlied1.qq.com/edsafe/Client/ios/8999/config3.xml
+(http|https)://thirdqq.qlogo.cn/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+^(http|https)://thirdwx.qlogo.cn/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+^(http|https)://qqpubilc.qlogo.cn/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+^(http|https)://thirdwx.qpic.cn/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+^(http|https)://thirdqq.qpic.cn/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+^(http|https)://qqpublic.qpic.cn/ url echo-response image/jpg/png/ echo-response http://www.metous.co/js/g.jpg
+https://www.baidu.com url 302 http://www.metous.co
+http://dlied1.qq.com:443 url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+http://dlied1.qq.com/iedsafe/Client/ios/2131/config2.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+http://dlied1.qq.com/iedsafe/Client/ios/2131/config3.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+http://dlied1.qq.com/iedsafe/Client/ios/8999/config2.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+https://dlied1.qq.com/iedsafe/Client/ios/8999/config2.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+https://dlied1.qq.com/iedsafe/Client/ios/2131/config3.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+https://dlied1.qq.com/iedsafe/Client/ios/2131/config2.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
