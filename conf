@@ -1,4 +1,5 @@
-hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, qqpubilc.qlogo.cn,btrace.qq.com,btrace.qq.com,www.baidu.com,dlied1.qq.com,qqpublic.qpic.cn,alogs.umeng.com,thirdqq.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn,intldlgs.qq.com,iggre.com
+hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, qqpubilc.qlogo.cn,btrace.qq.com,btrace.qq.com,www.baidu.com,dlied1.qq.com,qqpublic.qpic.cn,alogs.umeng.com,thirdqq.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn，
+intldlgs.qq.com，iggre.com
 
 # 作者QQ920593649，稳定不封号中。
 (?<=_region=)CN(?=&) url 307 JP
