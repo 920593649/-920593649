@@ -1,4 +1,4 @@
-hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, qqpubilc.qlogo.cn,btrace.qq.com,btrace.qq.com,www.baidu.com,dlied1.qq.com,qqpublic.qpic.cn,alogs.umeng.com,thirdqq.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn
+hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, qqpubilc.qlogo.cn,btrace.qq.com,btrace.qq.com,www.baidu.com,dlied1.qq.com,qqpublic.qpic.cn,alogs.umeng.com,thirdqq.qlogo.cn,hirdqq.qpic.cn,thirdwx.qpic.cn，intldlgs.qq.com，iggre.com
 
 # 作者QQ920593649，稳定不封号中。
 (?<=_region=)CN(?=&) url 307 JP
@@ -27,3 +27,10 @@ http://dlied1.qq.com/iedsafe/Client/ios/8999/config2.xml url 302 https://dlied1.
 https://dlied1.qq.com/iedsafe/Client/ios/8999/config2.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
 https://dlied1.qq.com/iedsafe/Client/ios/2131/config3.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
 https://dlied1.qq.com/iedsafe/Client/ios/2131/config2.xml url 302 https://dlied1.qq.com/iedsafe/Client/ios/2131/F16D31E0/6.dat
+https://intldlgs.qq.com/iedsafe/Client/ios/2139/config3.xml url 302 *bpu
+https://intldlgs.qq.com/iedsafe/Client/ios/2139/config2.xml url 302 *bpu
+https://intldlgs.qq.com/iedsafe/Client/ios/8999/config2.xml url 302 *bpu
+https://intldlgs.qq.com/iedsafe/Client/ios/2139/81AFF355/mrpcs.data url 302 https://intldlgs.qq.com/iedsafe/Client/ios/2139/81AFF355/youga.dat" Enabled="true
+https://intldlgs.qq.com/iedsafe/Client/ios/2139/3683FB64/comm.dat url 302 https://intldlgs.qq.com/iedsafe/Client/ios/2139/3683FB64/youga.dat
+https://intldlgs.qq.com/iedsafe/Client/ios/2139/9136AAA3/tssmua.zip url 302 https://intldlgs.qq.com/iedsafe/Client/ios/2139/9136AAA3/youga.dat
+http://iggre.com url 302 true
